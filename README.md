@@ -35,7 +35,7 @@ PS c:\Users\user> Get-ADComputer -Filter * -credential $cred | Select-Object -Pr
 ```
 
 ## Run the python script or executable
-- Make sure the CSV is in the same directory as the executing script or alternatively run the Windows Executable. The client_id and client_secret can be gotten in the AMP console under the API menu drop down. You only need read access for that API key.
+- Make sure the CSV is in the same directory as the executing script or similarly run the Windows Executable. The client_id and client_secret can be gotten in the AMP console under the API menu drop down. You only need read access for that API key.
 
 ```
 amp_ad_hostname.exe <client_id> <client_secret> <csvfile_name>
