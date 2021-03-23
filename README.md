@@ -5,7 +5,7 @@ This script will allow you to get a list of computer names in your AzureAD or Lo
 
 Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_check/releases/tag/v1)
 
-## Assumption
+## Assumptions
 
 
 - AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant.
