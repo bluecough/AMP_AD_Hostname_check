@@ -40,3 +40,4 @@ PS c:\Users\user> Get-ADComputer -Filter * -credential $cred | Select-Object -Pr
 ```
 amp_ad_hostname.exe <client_id> <client_secret> <csvfile_name>
 ```
+## Sample output
