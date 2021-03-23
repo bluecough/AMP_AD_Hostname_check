@@ -3,7 +3,7 @@
 ## Authors: George Seeto, Chantel Strickland, Dave Schwartberg
 ##
 
-import sys, requests, json
+import sys, requests, json, urllib3
 
 def main():
     # Get the input args
@@ -11,6 +11,8 @@ def main():
     api_key = sys.argv[2]
     csvfilename = sys.argv[3]
 
+    urllib3.disable_warnings()
+    
     host = "api.amp.cisco.com/v1"
     url = f"https://{client_id}:{api_key}@{host}/computers?hostname[]="
 
@@ -26,7 +28,6 @@ def main():
     #get_amp_host("Andromeda", url)
 
 def get_amp_host(name, url):
-    print(url + name)
     response = requests.get(url + name, verify=False)
     decode_response = response.json()
     try:
