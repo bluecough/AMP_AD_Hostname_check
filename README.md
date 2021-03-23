@@ -9,7 +9,7 @@ Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_c
 ## Assumptions
 
 
-- AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant.
+- AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant. This is if you are pulling device lists from AzureAD else you can pull device lists via on premise AD.
 - On premise AD Command is also below. However, you will need to have RSAT Tools installed on your Windows Desktop.
 
 ## Getting AzureAD List of Machines
