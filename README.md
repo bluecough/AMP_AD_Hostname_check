@@ -4,7 +4,7 @@ AMP_AD_Hostname_Check
 This script will allow you to get a list of computer names in your AzureAD or Local AD and compare those to connectors in Cisco's Secure Endpoints.
 
 Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_check/releases/tag/v1)
-* Executable built using pyinstaller
+(Executable built using pyinstaller)
 
 ## Assumptions
 
