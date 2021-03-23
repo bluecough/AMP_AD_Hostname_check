@@ -24,3 +24,5 @@ PS c:\Users\user> Connect-AzureAD
 PS c:\Users\user> Get-AzureADDevice | Select-Object -Property DisplayName | Export-Csv -Path .\computers.csv
 ```
 
+## Run the python Script
+- Make sure the CSV is in the same directory as the executing script or alternatively run the Windows Executable.
