@@ -1,4 +1,4 @@
-AMP_AD_Hostname_check
+AMP_AD_Hostname_Check
 =====================
 
 This script will allow you to get a list of computer names in your AzureAD and compare those to connectors in Cisco's Secure Endpoints.
