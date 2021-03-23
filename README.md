@@ -3,6 +3,8 @@ AMP_AD_Hostname_check
 
 This script will allow you to get a list of computer names in your AzureAD and compare those to connectors in Cisco's Secure Endpoints.
 
+Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_check/releases/tag/v1)
+
 ## Assumption
 
 
