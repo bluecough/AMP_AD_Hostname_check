@@ -47,4 +47,4 @@ amp_ad_hostname.exe <client_id> <client_secret> <csvfile_name>
 George Seeto, Chantel Strickland, Dave Schwartzberg
 
 # License
-This project is licensed to you under the terms of the [Cisco Sample Code License]()
+This project is licensed to you under the terms of the [Cisco Sample Code License](https://github.com/bluecough/AMP_AD_Hostname_check/blob/master/LICENSE)
