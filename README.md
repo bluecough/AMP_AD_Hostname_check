@@ -15,3 +15,12 @@ This script will allow you to get a list of computer names in your AzureAD and c
 ```
 PS c:\Users\user> Install-Module -name AzureAD
 ```
+- Authenticate to your AzureAD tenant
+```
+PS c:\Users\user> Connect-AzureAD
+```
+- Now create a CSV list of computers using the following Powershell command
+```
+PS c:\Users\user> Get-AzureADDevice | Select-Object -Property DisplayName | Export-Csv -Path .\computers.csv
+```
+
