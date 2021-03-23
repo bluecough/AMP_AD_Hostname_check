@@ -25,8 +25,6 @@ def main():
         line = line.replace('"','')
         get_amp_host(line, url)
 
-    #get_amp_host("Andromeda", url)
-
 def get_amp_host(name, url):
     response = requests.get(url + name, verify=False)
     decode_response = response.json()
