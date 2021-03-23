@@ -8,7 +8,8 @@ Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_c
 ## Assumption
 
 
-- AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant
+- AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant.
+- On premise AD Command is also below. However, you will need to have RSAT Tools installed on your Windows Desktop.
 
 ## Getting AzureAD List of Machines
 
@@ -26,7 +27,14 @@ PS c:\Users\user> Connect-AzureAD
 PS c:\Users\user> Get-AzureADDevice | Select-Object -Property DisplayName | Export-Csv -Path .\computers.csv
 ```
 
-## Run the python Script
+## Getting local AD list of machines
+```
+PS c:\Users\user> Import-Module -name ActiveDirectory
+PS c:\Users\user> $cred = Get-Credential
+PS c:\Users\user> Get-ADComputer -Filter * -credential $cred | Select-Object -Property Name | Export-Csv -Path .\computers.csv
+```
+
+## Run the python script or executable
 - Make sure the CSV is in the same directory as the executing script or alternatively run the Windows Executable.
 
 ```
