@@ -8,7 +8,7 @@ Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_c
 ## Assumption
 
 
-- AzureAD Connect is installed in your environment and you are sync'ing your devices to your Azure Tenant
+- AzureAD Connect is installed in your environment and you are sync'ing your devices to your AzureAD Tenant
 
 ## Getting AzureAD List of Machines
 
