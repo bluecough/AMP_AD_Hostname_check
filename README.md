@@ -30,5 +30,5 @@ PS c:\Users\user> Get-AzureADDevice | Select-Object -Property DisplayName | Expo
 - Make sure the CSV is in the same directory as the executing script or alternatively run the Windows Executable.
 
 ```
-amp_ad_hostname.exe client_id client_secret csvfile_name
+amp_ad_hostname.exe <client_id> <client_secret> <csvfile_name>
 ```
