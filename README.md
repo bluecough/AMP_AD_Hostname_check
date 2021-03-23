@@ -42,3 +42,9 @@ amp_ad_hostname.exe <client_id> <client_secret> <csvfile_name>
 ```
 ## Sample output
 ![](https://github.com/bluecough/AMP_AD_Hostname_check/blob/master/images/sample.png)
+
+# Authors & Maintainers
+George Seeto, Chantel Strickland, Dave Schwartzberg
+
+# License
+This project is licensed to you under the terms of the [Cisco Sample Code License]()
