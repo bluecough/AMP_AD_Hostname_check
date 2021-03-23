@@ -12,7 +12,7 @@ Download the Windows [Executable](https://github.com/bluecough/AMP_AD_Hostname_c
 
 ## Getting AzureAD List of Machines
 
-- Open a powershell on your Windows 10 workstation and make sure you install the AzureAD module
+- Open a powershell on your Windows 10 workstation and make sure you install the AzureAD module. You will need to run Powershell as an Administrator to install modules.
 
 ```
 PS c:\Users\user> Install-Module -name AzureAD
